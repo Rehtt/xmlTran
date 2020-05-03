@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--Notes :-->
+<!-- - If the text is marked ' Please replace with the symbol &apos; and add at the beginning and end of the sentence "
+        Example: Let's get started! >> "Let&apos;s get started!"  -->
+<!-- - If the text is marked & Please replace with the symbol &amp; 
+        Example. Movies & Animation >> Movies &amp; Animation   -->
+<!--supportsRtl-->
+<string name="Is_arabic">假</string>
+<!--===============================================================-->
+<!--Range seeker-->
+<string name="demo_min_label">分钟</string>
+<string name="demo_max_label">马克斯</string>
+<!--===============================================================-->
+<!--EXO PLAYER NOT FOR TRANCALCTE-->
+<string name="selection_disabled">残疾人</string>
+<string name="selection_default">违约</string>
+<string name="unexpected_intent_action">意外的意图操作：</string>
+<string name="enable_random_adaptation">启用随机自适应</string>
+<string name="error_drm_not_supported">低于18的API级别不支持受保护的内容</string>
+<string name="error_drm_unsupported_scheme">此设备不支持所需的DRM方案</string>
+<string name="error_drm_unknown">发生未知的DRM错误</string>
+<string name="error_no_decoder">此设备不提供解码器</string>
+<string name="error_no_secure_decoder">此设备不提供安全解码器</string>
+<string name="error_querying_decoders">无法查询设备解码器</string>
+<string name="error_instantiating_decoder">无法实例化解码器</string>
+<string name="error_unsupported_video">媒体包括视频曲目，但此设备无法播放</string>
+<string name="error_unsupported_audio">媒体包括音频曲目，但此设备无法播放任何音频曲目</string>
+<string name="storage_permission_denied">访问存储的权限被拒绝</string>
+<string name="sample_list_load_error">无法加载一个或多个示例列表</string>
+<string name="ima_not_loaded">播放没有广告的示例，因为未加载IMA扩展</string>
+<string name="Lbl_Download_faileds">下载失败。</string>
+<!--===============================================================-->
+<!--most used-->
+<string name="video">视频</string>
+<string name="audio">音频</string>
+<string name="image">图像</string>
+<string name="text">文本</string>
+<string name="retry">重试</string>
+<string name="Terms_of_service"><u> 服务条款</u>和</string>
+<string name="Privacy_Policy"><u> 隐私政策</u></string>
+<string name="Lbl_Username">用户名</string>
+<string name="Lbl_Email">电子邮件</string>
+<string name="Lbl_Password">密码</string>
+<string name="Lbl_Login">登录</string>
+<string name="Lbl_Register">寄存器</string>
+<string name="Lbl_Empty">空的</string>
+<string name="Lbl_Loading">加载</string>
+<string name="Lbl_Comment">评论</string>
+<string name="Lbl_Videos">视频</string>
+<string name="Lbl_Views">意见</string>
+<string name="Lbl_aboutMe">关于我</string>
+<string name="Lbl_About">关于</string>
+<string name="Lbl_Error">错误</string>
+<string name="Lbl_Ok">好 啊</string>
+<string name="Lbl_Security">安全</string>
+<string name="Lbl_Done">多恩</string>
+<string name="Lbl_Deleted">删除</string>
+<string name="Lbl_Delete">删除</string>
+<string name="Lbl_Submit">提交</string>
+<string name="Lbl_Cancel">取消</string>
+<string name="Lbl_Yes">是的</string>
+<string name="Lbl_No">不</string>
+<string name="Lbl_Warning">警告</string>
+<string name="Lbl_Changed">改变</string>
+<string name="Lbl_Crop">作物</string>
+<string name="Lbl_Report">报告</string>
+<string name="Lbl_Quality">质量</string>
+<string name="Lbl_Help_feedback">帮助和反馈</string>
+<string name="Lbl_Make_video_offline">使视频脱机</string>
+<string name="Lbl_Share">分享</string>
+<string name="Lbl_InviteSMSText_1">嗨，我们见面吧</string>
+<string name="Lbl_InviteSMSText_2">为您的智能手机</string>
+<string name="Lbl_Success">成功</string>
+<string name="Lbl_Offline_Mode">脱机模式</string>
+<string name="Lbl_Cover">封面</string>
+<string name="Lbl_Avatar">化身</string>
+<string name="Lbl_Close">关闭</string>
+<string name="Lbl_With">与</string>
+<string name="Lbl_At">在</string>
+<string name="Lbl_SelectPictures">选择图片</string>
+<string name="Lbl_SelectImage">选择图像</string>
+<string name="Lbl_SelectFile">选择文件</string>
+<string name="Lbl_SelectGif">选择Gif</string>
+<string name="Lbl_Unknown">未知</string>
+<string name="Lbl_ReadMore">阅读更多</string>
+<string name="Lbl_ReadLess">少读</string>
+<string name="Lbl_Description">说明</string>
+<string name="Lbl_Lets_get_started">“让我们开始吧！”</string>
+<string name="Lbl_Published_on">发表于</string>
+<string name="Lbl_I_agree_to_the">我同意</string>
+<string name="Lbl_Image_file_creation_failed">映像文件创建失败</string>
+<string name="Lbl_Please_write_your_email">请写你的电子邮件</string>
+<string name="Lbl_Last_seen">最后一次见到</string>
+<string name="Lbl_Create_Account">创建帐户</string>
+<string name="Lbl_SignUp">注册</string>
+<string name="Lbl_SignIn">登录</string>
+<!--===============================================================-->
+<!-- Password-->
+<string name="Lbl_ConfirmPassword">确认密码</string>
+<string name="Lbl_Forget_password">忘记密码？</string>
+<string name="Lbl_Forgot_your_password">忘记密码</string>
+<string name="Lbl_Forgot_your_password_DontWorry">“不要担心，在这里键入您的电子邮件，我们会为您恢复。”</string>
+<string name="Lbl_Change_Password">修改密码</string>
+<string name="Lbl_Current_Password">当前密码</string>
+<string name="Lbl_New_Password">新密码</string>
+<string name="Lbl_Repeat_password">重复密码</string>
+<string name="Lbl_Your_password_dont_match">您的密码不匹配</string>
+<string name="Lbl_Enter_Password">在此处输入密码</string>
+<string name="Lbl_Change_your_password">更改密码</string>
+<string name="Lbl_If_you_forgot_your_password">如果你忘记了密码，你可以从这里重新设置。</string>
+<!--===============================================================-->
+<!--Profile-->
+<string name="Lbl_DefaultAbout">嗨，我在用</string>
+<string name="Lbl_CopeLinkToProfile">将链接复制到配置文件</string>
+<string name="Lbl_Followers">追随者</string>
+<string name="Lbl_Following">跟随</string>
+<string name="Lbl_Follow">跟随</string>
+<string name="Lbl_Friends">朋友</string>
+<string name="Lbl_Request">请求</string>
+<string name="Lbl_AddFriends">添加朋友</string>
+<string name="Lbl_People_Following">跟随的人</string>
+<string name="Lbl_People_Followers">人民追随者</string>
+<string name="Lbl_Update_DataProfile">更新我的个人资料</string>
+<string name="Lbl_First_Name">名字</string>
+<string name="Lbl_Last_Name">姓</string>
+<string name="Lbl_Mobile">手机</string>
+<string name="Lbl_website">网站</string>
+<string name="Lbl_Work_Place">工作场所</string>
+<string name="Lbl_School">学校</string>
+<string name="Lbl_Photos">照片</string>
+<string name="Lbl_View_All_Liked_Pages">按用户查看喜欢的页面</string>
+<string name="Lbl_Birthday">生日</string>
+<!--===============================================================-->
+<!--Social Links-->
+<string name="Lbl_Facebook">脸谱网</string>
+<string name="Lbl_Twitter">推特</string>
+<string name="Lbl_GooglePlus">谷歌</string>
+<string name="Lbl_Vk">Vkontakte公司</string>
+<string name="Lbl_Linkedin">领英</string>
+<string name="Lbl_Instagram">一款图片分享应用</string>
+<string name="Lbl_YouTube">YouTube网站</string>
+<!--===============================================================-->
+<!--WalkTroutPage-->
+<string name="Lbl_Title_page1">设置您的位置</string>
+<string name="Lbl_Description_page1">设置你的位置，这样我们可以告诉你最近的有趣的人在哪里，发现附近的朋友。</string>
+<string name="Lbl_Title_page2">创建组</string>
+<string name="Lbl_Description_page2">你觉得无聊吗？开始并创建一个新组，添加您的朋友和联系人，并从一个位置共享您的所有帖子。</string>
+<string name="Lbl_Title_page3">发布多媒体文件</string>
+<string name="Lbl_Description_page3">在您自己的新闻源上发布各种图片和贴纸、视频和文档文件。</string>
+<string name="Lbl_Title_page4">录音存取</string>
+<string name="Lbl_Description_page4">允许我们允许您的应用在新闻源评论中留下语音备忘和录制的歌曲。</string>
+<!--===============================================================-->
+<!-- Add Post-->
+<string name="Lbl_AddPost">添加帖子</string>
+<string name="Lbl_Post">岗位</string>
+<string name="Lbl_AddToPost">添加到帖子</string>
+<string name="Lbl_ImageGallery">图像库</string>
+<string name="Lbl_VideoGallery">视频库</string>
+<string name="Lbl_MentionContact">提及联系人</string>
+<string name="Lbl_Location">位置</string>
+<string name="Lbl_Place">地点</string>
+<string name="Lbl_Feeling">感觉</string>
+<string name="Lbl_Camera">照相机</string>
+<string name="Lbl_Gif">Gif格式</string>
+<string name="Lbl_File">文件</string>
+<string name="Lbl_Music">音乐</string>
+<string name="Lbl_Whats_Going_On">“怎么了？#标签。。@提及。”</string>
+<!--===============================================================-->
+<!--Type Activity-->
+<string name="Lbl_ListeningTo">倾听</string>
+<string name="Lbl_Listening">听</string>
+<string name="Lbl_Playing">玩</string>
+<string name="Lbl_Watching">看</string>
+<string name="Lbl_Traveling">旅游</string>
+<!--===============================================================-->
+<!--Feelings-->
+<string name="Lbl_Sad">悲伤的</string>
+<string name="Lbl_Angry">愤怒的</string>
+<string name="Lbl_Funny">有趣的</string>
+<string name="Lbl_Loved">爱</string>
+<string name="Lbl_Cool">酷</string>
+<string name="Lbl_Happy">快乐</string>
+<string name="Lbl_Tired">累了</string>
+<string name="Lbl_Sleepy">昏昏欲睡的</string>
+<string name="Lbl_Expressionless">无表情</string>
+<string name="Lbl_Confused">困惑的</string>
+<string name="Lbl_Shocked">震惊的</string>
+<string name="Lbl_VerySad">非常悲伤</string>
+<string name="Lbl_Blessed">有福的</string>
+<string name="Lbl_Bored">无聊的</string>
+<string name="Lbl_Broken">破碎的</string>
+<string name="Lbl_Lovely">可爱的</string>
+<string name="Lbl_Hot">热的</string>
+<!--===============================================================-->
+<!--Location-->
+<string name="Lbl_Finding_your_Location">正在查找您的位置…</string>
+<string name="Lbl_SearchForPlace">寻找地方</string>
+<string name="Lbl_EventPlace">活动地点</string>
+<!--===============================================================-->
+<!--Mentions-->
+<string name="Lbl_MentionsFriend">提到朋友</string>
+<!--===============================================================-->
+<!--User contacts-->
+<string name="Lbl_Empty_usercontacts">没有联系人</string>
+<string name="Lbl_Start_usercontacts">开始添加新联系人！</string>
+<!--===============================================================-->
+<!--Albums-->
+<string name="Lbl_MyImages">我的图像</string>
+<string name="Lbl_YourImages">用户图像</string>
+<string name="Lbl_Empty_Albums">没有照片！！</string>
+<string name="Lbl_Start_Albums">开始上传你自己的照片</string>
+<!--===============================================================-->
+<!--Blocked Users-->
+<string name="Lbl_Empty_BlockedUser">没有被阻止的用户</string>
+<string name="Lbl_BlockedUsers">被阻止的用户</string>
+<string name="Lbl_Blocked_successfully">成功阻止</string>
+<string name="Lbl_Unblock_successfully">解除阻止成功</string>
+<!--===============================================================-->
+<!--Story-->
+<string name="Lbl_Addnewstory">添加新故事</string>
+<string name="Lbl_Stories">故事</string>
+<string name="Lbl_Story">故事</string>
+<!--===============================================================-->
+<!--Edit post-->
+<string name="Lbl_EditPost">编辑文章</string>
+<string name="Lbl_PostPrivacy">发布隐私</string>
+<!--===============================================================-->
+<!--Post Data-->
+<string name="Lbl_PostLikes">职位喜好</string>
+<string name="Lbl_PostWonders">后奇迹</string>
+<string name="Lbl_Empty_PostLikes">还没有喜欢</string>
+<string name="Lbl_Empty_PostWonders">还没有奇迹</string>
+<!--===============================================================-->
+<!--Movies-->
+<string name="Lbl_Empty_Movies">空视频</string>
+<string name="Lbl_Start_Movies">“没有视频”</string>
+<string name="Lbl_Stars">星星</string>
+<string name="Lbl_Tag">标签</string>
+<string name="Lbl_Delete_video">删除视频</string>
+<string name="Lbl_Min">分钟</string>
+<!--===============================================================-->
+<!--Events-->
+<string name="Lbl_Create_Events">创建事件</string>
+<string name="Lbl_Empty_Events">没有事件</string>
+<string name="Lbl_Start_Events">没有要查看的事件</string>
+<string name="Lbl_GoingPeople">去的人</string>
+<string name="Lbl_InterestedPeople">感兴趣的人</string>
+<string name="Lbl_Going">去</string>
+<string name="Lbl_Go">去吧</string>
+<string name="Lbl_Interested">感兴趣的</string>
+<string name="Lbl_Start_Date">开始日期</string>
+<string name="Lbl_End_Date">结束日期</string>
+<string name="Lbl_Event_Name">事件名称</string>
+<string name="Lbl_ViewEvent">查看事件</string>
+<!--===============================================================-->
+<!--Pages-->
+<string name="Lbl_ExplorePage">浏览网页</string>
+<string name="Lbl_Create_New_Page">创建新页</string>
+<string name="Lbl_New_Page">新页</string>
+<string name="Lbl_Empty_LikedPages">没有喜欢的页面</string>
+<string name="Lbl_Start_LikedPages">开始查看或创建自己的页面</string>
+<string name="Lbl_Update_Data_Page">更新数据页</string>
+<string name="Lbl_Describe_Page">描述你的页面</string>
+<string name="Lbl_Describe_Description_Page">告诉潜在的成员你的网页将帮助他们知道它是否与他们相关。</string>
+<string name="Lbl_Page_title">页面标题</string>
+<string name="Lbl_Page_URL">页面URL</string>
+<string name="Lbl_Page_About">关于页</string>
+<string name="Lbl_Manage_Pages">管理页面</string>
+<string name="Lbl_Liked_Pages">喜欢的页面</string>
+<!--===============================================================-->
+<!--Group-->
+<string name="Lbl_ExploreGroup">探索小组</string>
+<string name="Lbl_New_Group">新建组</string>
+<string name="Lbl_Create_New_Group">创建新组</string>
+<string name="Lbl_Empty_JoinedGroup">尚未加入群</string>
+<string name="Lbl_Start_JoinedGroup">加入或组建自己的团队</string>
+<string name="Lbl_Update_DataGroup">更新组数据</string>
+<string name="Lbl_Describe_Group">描述你的团队</string>
+<string name="Lbl_Describe_Description_Group">告诉潜在成员你的团队将要做什么，以帮助他们知道这是否与他们相关。</string>
+<string name="Lbl_Group_title">组标题</string>
+<string name="Lbl_Group_URL">组URL</string>
+<string name="Lbl_Group_About">分组讨论</string>
+<string name="Lbl_Update_Data_Group">更新数据组</string>
+<string name="Lbl_Manage_Groups">管理组</string>
+<string name="Lbl_Joined_Groups">加入的组</string>
+<!--===============================================================-->
+<!--Notification-->
+<string name="Lbl_Empty_notifications">还没有通知</string>
+<!--===============================================================-->
+<!--Search-->
+<string name="Lbl_Empty_search">未找到结果</string>
+<string name="Lbl_Start_search">用新单词开始搜索</string>
+<!--===============================================================-->
+<!--Search Filter-->
+<string name="Lbl_Search_Filter">搜索筛选器</string>
+<string name="Lbl_All">全部</string>
+<string name="Lbl_Gender">性别</string>
+<string name="Lbl_Profile_Picture">个人资料图片</string>
+<!--===============================================================-->
+<!--Market-->
+<string name="Lbl_Empty_Market">无产品</string>
+<string name="Lbl_Start_Market">开始添加自己的产品</string>
+<string name="Lbl_CreateNewProduct">创建新产品</string>
+<string name="Lbl_NewProduct">新产品</string>
+<string name="Lbl_Describe_Product">销售新产品</string>
+<string name="Lbl_Describe_Description_Product">您可以从“添加产品”工具中列出要销售的产品。</string>
+<string name="Lbl_Product_name">产品名称</string>
+<string name="Lbl_Product_price">产品价格</string>
+<string name="Lbl_Product_Location">产品位置</string>
+<string name="Lbl_Product_description">产品描述</string>
+<string name="Lbl_In_Stock">有现货的</string>
+<!--===============================================================-->
+<!--Article-->
+<string name="Lbl_ExploreArticle">浏览文章</string>
+<string name="Lbl_Empty_Article">无文章</string>
+<string name="Lbl_Start_Article">没有可用的文章</string>
+<!--===============================================================-->
+<!--News-->
+<string name="Lbl_Empty_News">脱机模式</string>
+<string name="Lbl_Start_News">找不到页</string>
+<!--===============================================================-->
+<!--Friend Request-->
+<string name="Lbl_FriendRequest">好友请求</string>
+<string name="Lbl_Empty_FriendRequest">你没有任何要求</string>
+<string name="Lbl_View_All_FriendRequest">查看所有好友请求</string>
+<!--===============================================================-->
+<!--Trending-->
+<string name="Lbl_Pro_Users">专业用户</string>
+<string name="Lbl_Pro_Pages">专业网页</string>
+<!--===============================================================-->
+<!--Last Activities-->
+<string name="Lbl_LastActivities">最后的活动</string>
+<string name="Lbl_CommentedOn">评论</string>
+<string name="Lbl_ReactedTo">对</string>
+<string name="Lbl_StartedFollowing">开始跟踪</string>
+<string name="Lbl_BecomeFriendsWith">成为朋友</string>
+<string name="Lbl_IsFollowing">正在跟踪</string>
+<string name="Lbl_wondered">想知道</string>
+<string name="Lbl_disliked">不喜欢</string>
+<string name="Lbl_shared">共享</string>
+<!--===============================================================-->
+<!--Time-->
+<string name="Lbl_hours">几个小时前</string>
+<string name="Lbl_days">几天前</string>
+<string name="Lbl_month">一个月前</string>
+<string name="Lbl_minutes">几分钟前</string>
+<string name="Lbl_seconds">几秒钟前</string>
+<string name="Lbl_year">一年前</string>
+<string name="Lbl_about_minute">一分钟前</string>
+<string name="Lbl_about_hour">一小时前</string>
+<string name="Lbl_yesterday">昨天</string>
+<string name="Lbl_about_month">一个月前</string>
+<string name="Lbl_about_year">一年前</string>
+<!--===============================================================-->
+<!--NearBy-->
+<string name="Lbl_NearBy">在附近</string>
+<string name="Lbl_Start_NearBy">哎呀，好像没人在你身边</string>
+<string name="Lbl_turn_your_GPS">请转动你的GPS以获得更好的结果</string>
+<string name="Lbl_distance_away">一段距离</string>
+<string name="Lbl_km">公里</string>
+<!--===============================================================-->
+<!--Add Post-->
+<string name="Lbl_YouCannot_PostanEmptyPost">不能发布空邮件</string>
+<!--===============================================================-->
+<!--Categories-->
+<string name="Lbl_Category">类别</string>
+<string name="Lbl_SelectCategories">选择类别</string>
+<!--Categories Communities Local Custom-->
+<!--===============================================================-->
+<!--Button-->
+<string name="Btn_Send">发送</string>
+<string name="Btn_DeleteAccount">删除帐户</string>
+<string name="Btn_UnBlock">解除锁定</string>
+<string name="Btn_SearchRandom">随机搜索</string>
+<string name="Btn_reloadPage">重新加载页面</string>
+<string name="Btn_Skip">跳过</string>
+<string name="Btn_Unlike">不像</string>
+<string name="Btn_Like">就像</string>
+<string name="Btn_Liked">喜欢</string>
+<string name="Btn_Dislike">不喜欢</string>
+<string name="Btn_Likes">喜欢</string>
+<string name="Btn_Contact">接触</string>
+<string name="Btn_Create_Events">创建自己的事件</string>
+<string name="Btn_AddProduct">添加产品</string>
+<string name="Btn_Joined">加入</string>
+<string name="Btn_Join_Group">加入组</string>
+<!--===============================================================-->
+<!--menu-->
+<string name="Lbl_Add">添加</string>
+<string name="Lbl_Create">创建</string>
+<string name="Lbl_Update">更新</string>
+<string name="Lbl_Block">阻塞</string>
+<string name="Lbl_Edit">编辑</string>
+<string name="Lbl_Save">保存</string>
+<string name="Lbl_Invite_Friends">邀请朋友</string>
+<string name="Lbl_Refresh">刷新</string>
+<string name="Lbl_Blocked_User_List">被阻止的用户列表</string>
+<string name="Lbl_Settings">设置</string>
+<string name="Lbl_CopeLink">复制链接</string>
+<string name="Lbl_ViewPrivacy">查看隐私快捷方式</string>
+<string name="Lbl_SettingsAccount">帐户设置</string>
+<!--===============================================================-->
+<!--RadioButton-->
+<string name="Radio_Male">男性</string>
+<string name="Radio_Female">女性</string>
+<string name="Radio_Public">公众</string>
+<string name="Radio_Private">私人</string>
+<string name="Radio_New">新的</string>
+<string name="Radio_Used">使用</string>
+<!--===============================================================-->
+<!--Toast && Messages-->
+<string name="Lbl_CheckYourInternetConnection">请检查您的互联网连接</string>
+<string name="Lbl_You_can_not_access_your_disapproval">你不能对条款和条件表示反对</string>
+<string name="Lbl_Sent_successfully">发送成功。</string>
+<string name="Lbl_Sent_successfully_followed">您已成功跟踪用户。</string>
+<string name="Lbl_Sent_successfully_FriendRequest">已成功发送好友请求。</string>
+<string name="Lbl_Sent_successfully_Unfollowed">用户已被取消跟踪。</string>
+<string name="Lbl_Sent_successfully_FriendRequestCancelled">好友请求已取消。</string>
+<string name="Lbl_Copied">复制的</string>
+<string name="Lbl_VerificationFailed">验证失败</string>
+<string name="Lbl_something_went_wrong">检查你的证件出了问题</string>
+<string name="Lbl_Error_Login">登录不正确，用户名或密码错误</string>
+<string name="Lbl_Error_Register_password">注册不正确，密码错误</string>
+<string name="Lbl_The_name_can_not_be_blank">名称不能为空</string>
+<string name="Lbl_Your_account_was_successfully_deleted">您的帐户已成功删除</string>
+<string name="Lbl_Closed_App">申请将被关闭</string>
+<string name="Lbl_You_can_not_Download_video">您无法下载此类视频</string>
+<string name="Lbl_Permission_is_denied">“抱歉：如果不允许，则无法继续执行操作”</string>
+<string name="Lbl_received_your_report">谢谢，我们已经收到你的报告了！</string>
+<string name="Lbl_Image_changed_successfully">图像更改成功</string>
+<string name="Lbl_Uploads_Image">你的照片很快就会更新</string>
+<string name="Lbl_Post_Added">已添加帖子</string>
+<string name="Lbl_Post_Failed">发布失败</string>
+<string name="Lbl_Google_Not_Available">谷歌游戏服务不可用。</string>
+<string name="Lbl_Google_Exception">谷歌游戏服务例外。</string>
+<string name="Lbl_Camera_Not_Available">相机不可用吗。</string>
+<string name="Lbl_Failed_to_load">加载失败</string>
+<string name="Lbl_NotEnoughPermission">权限不足</string>
+<string name="Lbl_YourGroupWasUpdated">您的组已更新</string>
+<string name="Lbl_YourPageWasUpdated">您的页面已更新</string>
+<string name="Lbl_Email_Has_Been_Send">已发送电子邮件</string>
+<string name="Lbl_Application_Restart">应用程序将重新启动</string>
+<string name="Lbl_ImageSaved">图像保存在库中</string>
+<string name="Lbl_Null_Data_User">空数据用户</string>
+<string name="Lbl_Loading_From_Server">从服务器加载</string>
+<string name="Lbl_You_will_be_logged">您将立即注销，待会儿见</string>
+<string name="Lbl_No_have_more_users">没有更多的用户</string>
+<!--===============================================================-->
+<!--Error-->
+<string name="Lbl_Error_Code">错误代码</string>
+<string name="Lbl_Please_check_your_details">错误，请检查您的详细信息</string>
+<string name="Lbl_Please_enter_your_data">错误，请输入您的数据</string>
+<string name="Lbl_IsEmailValid">错误，请填写完整的电子邮件地址</string>
+<string name="Lbl_Please_confirm_your_password">错误，请确认密码</string>
+<string name="Lbl_Please_enter_name">错误，请输入名称</string>
+<string name="Lbl_Please_enter_title">错误，请输入标题</string>
+<string name="Lbl_Please_enter_about">错误，请输入关于</string>
+<string name="Lbl_Please_enter_Description">错误，请输入说明</string>
+<string name="Lbl_Please_select_category">错误，请选择类别</string>
+<string name="Lbl_Please_select_start_date">错误，请选择开始日期</string>
+<string name="Lbl_Please_select_end_date">错误，请选择结束日期</string>
+<string name="Lbl_Please_select_Location">错误，请输入位置</string>
+<string name="Lbl_Please_select_start_time">错误，请选择开始时间</string>
+<string name="Lbl_Please_select_end_time">错误，请选择结束时间</string>
+<string name="Lbl_Please_select_Image">错误，请选择图像</string>
+<string name="Lbl_Please_enter_price">错误，请输入价格</string>
+<string name="Lbl_Error_path_image">错误路径图像</string>
+<string name="Lbl_Error_DisplayAddress">无法确定地址。几分钟后再试一次。</string>
+<string name="Lbl_Error_LocationChanged">无法确定您的位置。请稍后再试。</string>
+<!--===============================================================-->
+<!--Login && Register-->
+<string name="Lbl_ErrorLogin_3">用户名或密码不正确</string>
+<string name="Lbl_ErrorLogin_4">找不到用户名</string>
+<string name="Lbl_ErrorLogin_5">密码不正确</string>
+<string name="Lbl_ErrorRegister_3">发现错误，请稍后再试</string>
+<string name="Lbl_ErrorRegister_4">用户名已被使用</string>
+<string name="Lbl_ErrorRegister_5">无效的用户名字符，请选择其他用户名</string>
+<string name="Lbl_ErrorRegister_6">用户名必须介于5/32个字母之间</string>
+<string name="Lbl_ErrorRegister_7">已接收电子邮件</string>
+<string name="Lbl_ErrorRegister_8">电子邮件无效</string>
+<string name="Lbl_ErrorRegister_9">密码太短</string>
+<string name="Lbl_ErrorRegister_10">“密码不匹配”</string>
+<string name="Lbl_ErrorRegister_11">发送验证邮件时发现错误，请稍后再试</string>
+<!--===============================================================-->
+<!--AlertDialog-->
+<string name="Lbl_Are_you_logout">你确定要注销吗？</string>
+<string name="Lbl_Please_wait">请稍候…</string>
+<string name="Lbl_Do_You_want_to_remove_video">是否要从缓存中删除视频</string>
+<string name="Lbl_Comment_Hint_Listening">你在听什么？</string>
+<string name="Lbl_Comment_Hint_Playing">你在玩什么？</string>
+<string name="Lbl_Comment_Hint_Watching">你在看什么？</string>
+<string name="Lbl_Comment_Hint_Traveling">你要去哪里旅行？</string>
+<string name="Lbl_What_Are_You_Doing">你在做什么？</string>
+<string name="Lbl_Enter_your_link">输入链接</string>
+<string name="Lbl_Title_Back">你确定要出来吗？</string>
+<string name="Lbl_Content_Back">如果退出或继续编辑，则将删除完整输入。</string>
+<string name="Lbl_PositiveText_Back">弃桩</string>
+<string name="Lbl_NegativeText_Back">继续编辑</string>
+<string name="Lbl_Title_Location">我的立场</string>
+<string name="Lbl_Snippet_Location">“这是我设备的位置”</string>
+<string name="Lbl_Title_DeletePost">删除帖子</string>
+<string name="Lbl_Content_DeletePost">你想删除这篇文章吗</string>
+<string name="Lbl_leave_comment">发表评论</string>
+<string name="Lbl_Write_comment">写评论</string>
+<string name="Lbl_No_more_users">不再显示用户</string>
+<!--===============================================================-->
+<!--Fragment-->
+<string name="Lbl_Library">图书馆</string>
+<string name="Lbl_Notifications">通知</string>
+<string name="Lbl_Trending">趋向</string>
+<string name="Lbl_Search">搜索</string>
+<string name="Lbl_Activity">活动</string>
+<string name="Lbl_More">更多</string>
+<string name="Lbl_Market">市场</string>
+<string name="Lbl_MyProducts">我的产品</string>
+<string name="Lbl_All_Events">所有事件</string>
+<string name="Lbl_My_Events">我的活动</string>
+<string name="Lbl_Users">用户</string>
+<string name="Lbl_Pages">页</string>
+<string name="Lbl_Groups">组</string>
+<string name="Lbl_News_Feed">新闻提要</string>
+<!--===============================================================-->
+<!--Page-->
+<string name="Lbl_MyProfile">我的个人资料</string>
+<string name="Lbl_Messages">信息</string>
+<string name="Lbl_Contacts">联络</string>
+<string name="Lbl_Albums">相册</string>
+<string name="Lbl_Saved_Posts">保存的帖子</string>
+<string name="Lbl_Blogs">博客</string>
+<string name="Lbl_Marketplace">市场</string>
+<string name="Lbl_Events">事件</string>
+<string name="Lbl_FindFriends">寻找朋友</string>
+<string name="Lbl_Movies">影视</string>
+<string name="Lbl_Tell_Friends">告诉朋友</string>
+<string name="Lbl_CleanCashed">清理兑现的文件</string>
+<string name="Lbl_Help_Support">帮助和支持</string>
+<string name="Lbl_Logout">注销</string>
+<!--===============================================================-->
+<!--SettingsPreferences-->
+<!--===============================================================-->
+<string name="Lbl_Account_and_Profile">帐户和配置文件</string>
+<string name="Lbl_Edit_Profile_and_avatar">编辑配置文件</string>
+<string name="Lbl_My_Account">我的帐户</string>
+<string name="Lbl_SocialLinks">社会联系</string>
+<string name="Lbl_DeleteAccount">删除帐户</string>
+<string name="Lbl_GeneralAccount">一般帐户</string>
+<string name="Lbl_General">总则</string>
+<string name="Lbl_Language">语言</string>
+<string name="Lbl_Display_your_app_Language">显示应用程序语言</string>
+<string name="Lbl_Privacy">隐私</string>
+<string name="Lbl_Who_can_follow_me">谁能跟着我？</string>
+<string name="Lbl_Who_can_message_me">谁能给我留言？</string>
+<string name="Lbl_CanSeeMyfriends">谁能看见我的朋友？</string>
+<string name="Lbl_CanPostOnMyTimeline">谁可以在我的时间线上发帖？</string>
+<string name="Lbl_Who_can_see_my_birthday">谁能看到我的生日？</string>
+<string name="Lbl_ConfirmRequestFollows">确认请求</string>
+<string name="Lbl_Summary_ConfirmRequestFollows">当有人跟着我</string>
+<string name="Lbl_ShowMyActivities">显示我的活动</string>
+<string name="Lbl_Status">地位</string>
+<string name="Lbl_ShareMyLocation">与公众分享我的位置</string>
+<string name="Lbl_Everyone">所有人</string>
+<string name="Lbl_People_i_Follow">我追随的人</string>
+<string name="Lbl_People_Follow_Me">人们跟着我</string>
+<string name="Lbl_No_body">没有尸体</string>
+<string name="Lbl_Online">在线的</string>
+<string name="Lbl_Offline">离线</string>
+<string name="Lbl_Message_Notifications">消息通知</string>
+<string name="Lbl_Notification_Popup">通知弹出窗口</string>
+<string name="Lbl_Summary_notifications">接收消息时获取通知</string>
+<string name="Lbl_Conversation_tones">会话音调</string>
+<string name="Lbl_Summary_Play_sounds">播放传入和传出消息的声音</string>
+<string name="Lbl_TellFriend">告诉朋友</string>
+<string name="Lbl_Summary_Share">与朋友共享此应用程序</string>
+<string name="Lbl_MyAffiliates">我的附属公司</string>
+<string name="Lbl_Support">支持</string>
+<string name="Lbl_Help">帮助中心</string>
+<string name="Lbl_Report_Problem">报告问题</string>
+<string name="Lbl_Legal_and_Policies">法律和政策</string>
+<string name="Lbl_PrivacyPolicy">隐私政策</string>
+<string name="Lbl_About_App">关于我们</string>
+<string name="Lbl_TermsOfUse">使用条款</string>
+<!--Delete Account-->
+<string name="Lbl_Are_you_DeleteAccount">是否确实要从中删除帐户</string>
+<string name="Lbl_IWantToDelete1">是的，我想删除</string>
+<string name="Lbl_IWantToDelete2">永久从</string>
+<string name="Lbl_IWantToDelete3">帐户。</string>
+<!--===============================================================-->
+<!--V2.3 String translate-->
+<string name="Lbl2_Polls">民意测验</string>
+<string name="Lbl2_Answer">回答</string>
+<string name="Lbl2_PollsLimitError">最多只能设置8个答案</string>
+<string name="Lbl2_PollsLimitTwo">你应该至少设定两个答案</string>
+<!--V2.4 String translate-->
+<string name="Lbl3_Use_Location">使用位置？</string>
+<string name="Lbl3_GPS_is_disabled">GPS已禁用。是否要启用GPS</string>
+<!--V2.4.2 String translate-->
+<string name="Lbl3_SuggestionsUsers">建议用户</string>
+<!--Empty State Inflater-->
+<string name="Lbl_NoConnection_TitleText">没有可用的Internet</string>
+<string name="Lbl_NoConnection_DescriptionText">我们无法与服务器建立连接，请稍后再试。</string>
+<string name="Lbl_NoConnection_Button">再试一次</string>
+<string name="Lbl_NoSearchResult_TitleText">可悲的是没有结果！</string>
+<string name="Lbl_NoSearchResult_DescriptionText">我们找不到您正在搜索的关键字表单可能有点拼写错误？</string>
+<string name="Lbl_NoSearchResult_Button">随机搜索</string>
+<string name="Lbl_SomThingWentWrong_TitleText">出了问题</string>
+<string name="Lbl_SomThingWentWrong_DescriptionText">服务器响应</string>
+<string name="Lbl_SomThingWentWrong_Button">再试一次</string>
+<string name="Lbl_NoPost_TitleText">还没有帖子</string>
+<string name="Lbl_NoUsers_TitleText">没有要显示的用户。</string>
+<string name="Lbl_NoUsers_DescriptionText">欢迎，你是这里的第一个用户！</string>
+<string name="Lbl_NoFollow_TitleText">还没有用户</string>
+<string name="Lbl_NoFollow_DescriptionText">“你没有朋友可追随”</string>
+<!-- V2.5 String translate -->
+<string name="Lbl_Popular_Posts">热门帖子</string>
+<string name="Lbl_Pokes">戳</string>
+<string name="Lbl_Poke">戳</string>
+<string name="Lbl_Poked">戳</string>
+<string name="Lbl_PokeBack">向后戳</string>
+<string name="Lbl_YouHavePoked">你戳了</string>
+<string name="Lbl_YouSentPoked">你已经派了普克</string>
+<string name="Lbl_AddToFamily">添加到族</string>
+<string name="Lbl_SentGift">送礼</string>
+<string name="Lbl_Distance">距离</string>
+<string name="Lbl_Filter">过滤器</string>
+<string name="Lbl_ApplyFilter">应用筛选器</string>
+<string name="Lbl_ResetFilter">重置筛选器</string>
+<string name="Lbl_Send_to">发送到</string>
+<string name="Lbl_Replies">答复</string>
+<string name="Lbl_BoostPost">升压柱</string>
+<string name="Lbl_UnBoostPost">邮政信箱</string>
+<string name="Lbl_ReportPost">报告岗</string>
+<string name="Lbl_ReportThisPost">报告此帖子</string>
+<string name="Lbl_postSuccessfullyDeleted">已成功删除邮件</string>
+<string name="Lbl_postSuccessfullySaved">帖子已成功保存</string>
+<string name="Lbl_postSuccessfullyBoosted">职位成功提升</string>
+<string name="Lbl_AreYouSureDeletePost">是否确实要删除此文章</string>
+<string name="Lbl_YourReportPost">您的报告已发送</string>
+<string name="Lbl_DeletePost">删除帖子</string>
+<string name="Lbl_SavePost">保存帖子</string>
+<string name="Lbl_FileExists">文件存在</string>
+<string name="Lbl_EditEvents">编辑事件</string>
+<string name="Lbl_EventSuccessfullyEdited">事件编辑成功</string>
+<string name="Lbl_NoMoreAlbums">找不到相册</string>
+<string name="Lbl_NoMoreNotifications">找不到更多通知</string>
+<string name="Lbl_NoMoreArticles">找不到更多文章</string>
+<string name="Lbl_NoMoreMovies">找不到更多电影</string>
+<string name="Lbl_NoMorePages">找不到更多页</string>
+<string name="Lbl_NoMoreGroup">找不到其他组</string>
+<string name="Lbl_NoMoreEvent">找不到其他事件</string>
+<string name="Lbl_NoMoreProducts">找不到更多产品</string>
+<string name="Lbl_NoMoreActivities">找不到更多活动</string>
+<string name="Lbl_SharePost">分享职位</string>
+<string name="Lbl_ShareTo">分享给</string>
+<string name="Lbl_ShareToMyTimeline">共享到我的日程表</string>
+<string name="Lbl_ShareToGroup">共享给组</string>
+<string name="Lbl_ShareToPage">共享到页面</string>
+<string name="Lbl_MoreOptions">更多选项</string>
+<string name="Lbl_PostSuccessfullyShared">已成功共享帖子</string>
+<!--Time-->
+<string name="Lbl_justNow">刚才</string>
+<string name="Lbl_CutHours">H</string>
+<string name="Lbl_CutDays">D</string>
+<string name="Lbl_CutMonth">M</string>
+<string name="Lbl_CutMinutes">分钟</string>
+<string name="Lbl_CutSeconds">秒</string>
+<string name="Lbl_CutYear">Y</string>
+<string name="Lbl_YourStory">你的故事</string>
+<string name="Lbl_Add_caption">添加标题。。</string>
+<string name="Lbl_Verified">已证实的</string>
+<string name="Lbl_UnVerified">未经核实</string>
+<string name="Lbl_Age">年龄</string>
+<string name="Lbl_joinRequest">加入请求</string>
+<string name="Lbl_View_All_joinRequest">查看所有加入请求</string>
+<string name="Lbl_Empty_joinRequest">找不到请求</string>
+<string name="Lbl_Do_you_want_approve_join">是否要批准加入</string>
+<string name="Lbl_Accept">接受</string>
+<string name="Lbl_RequestSuccessfullyAccepted">已成功接受请求</string>
+<string name="Lbl_RequestSuccessfullyDeleted">请求已成功删除</string>
+<string name="Lbl_GoodMorning">早上好</string>
+<string name="Lbl_GoodMorning_Text">愿今早光明、有福、开明、多产、快乐</string>
+<string name="Lbl_GoodAfternoon">下午好</string>
+<string name="Lbl_GoodAfternoon_Text">愿今天下午轻松、幸福、开明、富有成效、快乐</string>
+<string name="Lbl_GoodEvening">晚上好</string>
+<string name="Lbl_GoodEvening_Text">夜晚是生命的表达方式，你离梦想更近了</string>
+<string name="Lbl_FindMoreAler_TextGroups">寻找和加入社区的新方法</string>
+<string name="Lbl_FindMoreAler_TextPages">将您的企业、您自己或您的事业与世界各地的人们联系起来</string>
+<string name="Lbl_AddAnswer">添加答案</string>
+<string name="Lbl_Promoted">促进</string>
+<string name="Lbl_LoadingUsername">加载用户名</string>
+<string name="Lbl_Reply">答复</string>
+<string name="Lbl_Price">价格</string>
+<string name="Lbl_Type">类型</string>
+<string name="Lbl_Join">加入</string>
+<string name="Lbl_EditProduct">编辑产品</string>
+<string name="Lbl_ProductSuccessfullyEdited">产品编辑成功</string>
+<string name="Lbl_CreateAlbum">创建相册</string>
+<string name="Lbl_Describe_Description_album">制作您自己的专辑，以保存您的特殊时刻</string>
+<string name="Lbl_AlbumName">唱片集名称</string>
+<string name="Lbl_NoAnyDescription">不显示任何描述</string>
+<string name="Lbl_ChangedProfileCover">更改的个人资料封面</string>
+<string name="Lbl_ChangedProfilePicture">更改的个人资料图片</string>
+<string name="Lbl_AddedNewProductForSell">增加新产品出售</string>
+<string name="Lbl_CreatedNewArticle">创建了新文章</string>
+<string name="Lbl_addedNewPhotosTo">将新照片添加到</string>
+<string name="Lbl_SharedPost">分享了一篇文章</string>
+<string name="Lbl_IsTravelingTo">正在前往</string>
+<string name="Lbl_IsWatching">正在监视</string>
+<string name="Lbl_IsPlaying">正在播放</string>
+<string name="Lbl_IsFeeling">是感觉</string>
+<string name="Lbl_IsListeningTo">正在听</string>
+<string name="Lbl_NoComments">没有要显示的评论</string>
+<string name="Lbl_ActivationSent">已发送激活电子邮件</string>
+<string name="Lbl_ActivationDetails">“我们向@发送了电子邮件。\n单击电子邮件中的链接激活您的帐户”</string>
+<string name="Lbl_FindYourGroups">查找您的群</string>
+<string name="Lbl_FindPopularPages">查找热门网页</string>
+<string name="Btn_Love">爱</string>
+<string name="Btn_Haha">哈哈</string>
+<string name="Btn_Wow">哇哦</string>
+<string name="Btn_Sad">悲伤的</string>
+<string name="Btn_Angry">愤怒的</string>
+<string name="Btn_Points">点数</string>
+<string name="Btn_Wonder">奇迹</string>
+<!--===============================================================-->
+<!-- V2.5  String translate -->
+<!--===============================================================-->
+<!-- Verification Code Number-->
+<string name="Lbl_Verification">验证</string>
+<string name="Lbl_VerificationText1">要登录，您需要验证您的身份。</string>
+<string name="Lbl_VerificationText2">我们已将确认码发送到您的电子邮件地址。</string>
+<string name="Btn_Verify">核实</string>
+<string name="Lbl_CodeNotCorrect">请键入正确的代码</string>
+<string name="Lbl_AddCode">添加代码编号</string>
+<string name="Lbl_AddCommentHere">在此处添加注释</string>
+<string name="Lbl_NewFeeds">包括动态信息</string>
+<!--===============================================================-->
+<string name="Lbl_FileNotDeviceMemory">设备内存中不存在此文件</string>
+<string name="Lbl_NotHaveThisUser">没有此用户</string>
+<string name="Lbl_PostDisLike">发布不喜欢</string>
+<string name="Lbl_PostReaction">反应后</string>
+<string name="Lbl_DeleteComment">删除注释</string>
+<string name="Lbl_AreYouSureDeleteComment">是否确实要删除此评论？</string>
+<string name="Lbl_CommentSuccessfullyDeleted">已成功删除评论</string>
+<string name="Lbl_CopeText">复制文本</string>
+<string name="Lbl_Sponsored">赞助</string>
+<string name="Lbl_Error_MaxCharacters">您已超出文本限制，必须小于</string>
+<string name="Lbl_sharedYourPost">分享了你的帖子</string>
+<string name="Lbl_NoPost_TitleText_hashtag">这里没有这个标签的帖子</string>
+<string name="Lbl_NoPost_TitleText_saved">没有保存帖子</string>
+<!-- V2.6 String translate -->
+<!--===============================================================-->
+<string name="Lbl_SelectVideoFrom">从中选择视频</string>
+<string name="Lbl_RecordVideoFromCamera">从摄像机录制视频</string>
+<string name="Lbl_Select">选择</string>
+<string name="Lbl_RemoveLocation">删除位置</string>
+<string name="Lbl_ChangeLocation">更改位置</string>
+<string name="Lbl_Text_copied">文本复制到剪贴板</string>
+<string name="Lbl_Currency">货币</string>
+<string name="Lbl_SelectCurrency">选择货币</string>
+<string name="Lbl_NoMorePhoto">找不到更多照片</string>
+<string name="Lbl_MyVideos">我的视频</string>
+<string name="Lbl_NoMoreVideo">找不到更多视频</string>
+<string name="Lbl_Empty_Video">没有视频！！</string>
+<string name="Lbl_Start_Video">开始上传你自己的视频</string>
+<string name="Lbl_DeleteJobs">是否确实要删除此文章</string>
+<string name="press_again_exit">再按一次退出</string>
+<string name="Lbl_MyLocation">我的位置</string>
+<string name="Lbl_CommonThings">平常事</string>
+<string name="Lbl_ThingInCommon">常见的</string>
+<string name="Lbl_Announcement">公告</string>
+<string name="Lbl_Name">姓名</string>
+<string name="Lbl_Experience">经验</string>
+<string name="Lbl_Position">职位</string>
+<string name="Lbl_WhereDidYouWork">你在哪里工作？</string>
+<string name="Lbl_Phone">电话</string>
+<string name="Lbl_FromDate">起始日期</string>
+<string name="Lbl_ToDate">迄今为止</string>
+<string name="Lbl_OfferAJob">提供工作</string>
+<string name="Lbl_CreateJob">创建作业</string>
+<string name="Lbl_Date">日期</string>
+<string name="Lbl_SalaryDate">工资日期</string>
+<string name="Lbl_AddQuestion">添加问题</string>
+<string name="Lbl_GetArticlesByCategories">按类别获取文章</string>
+<string name="Lbl_Rate">费率</string>
+<string name="Lbl_ErrorVotedPoll">你已经投票了。</string>
+<string name="Lbl_Games">游戏</string>
+<string name="Lbl_MyGames">我的游戏</string>
+<string name="Lbl_NoMoreGames">找不到更多游戏</string>
+<string name="Lbl_Empty_Games">没有游戏！！</string>
+<string name="Lbl_Play">播放</string>
+<string name="Lbl_ConfirmRequestGroup">有人加入此群时确认请求？</string>
+<string name="Lbl_CallToAction">行动号召</string>
+<string name="Lbl_CallToTargetUrl">调用目标url</string>
+<string name="Lbl_PageInformation">页面信息</string>
+<string name="Lbl_Company">单位</string>
+<string name="Lbl_JobTitle">职位名称</string>
+<string name="Lbl_votesPost">投票</string>
+<string name="Lbl_jobs">乔布斯</string>
+<string name="Lbl_JobType">作业类型</string>
+<string name="Lbl_NoMoreJobs">找不到其他作业</string>
+<string name="Lbl_NotHaveAnyJobs">哎呀，没有要显示的作业。</string>
+<string name="Lbl_common_things">平常事</string>
+<string name="Lbl_Message">消息</string>
+<string name="Lbl_Questions">问题</string>
+<string name="Lbl_TypeQuestion">键入问题</string>
+<string name="Lbl_FreeTextQuestion">自由文本问题</string>
+<string name="Lbl_YesNoQuestion">是/否问题</string>
+<string name="Lbl_MultipleChoiceQuestion">多项选择题</string>
+<string name="Lbl_QuestionOne">问题一</string>
+<string name="Lbl_QuestionTwo">问题二</string>
+<string name="Lbl_QuestionThree">问题三</string>
+<string name="Lbl_Question">问题</string>
+<string name="Lbl_ThereAreNoRequests">没有请求</string>
+<string name="Lbl_jobSuccessfullyEdited">已成功编辑作业</string>
+<string name="Lbl_jobSuccessfullyAdded">已成功添加作业</string>
+<string name="Lbl_full_time">充分的时间</string>
+<string name="Lbl_part_time">兼任</string>
+<string name="Lbl_internship">实习</string>
+<string name="Lbl_volunteer">志愿者</string>
+<string name="Lbl_contract">合同</string>
+<string name="Lbl_minimum">最小值</string>
+<string name="Lbl_maximum">最大值</string>
+<string name="Lbl_per_hour">每小时</string>
+<string name="Lbl_per_day">每天</string>
+<string name="Lbl_per_week">每周</string>
+<string name="Lbl_per_month">每月</string>
+<string name="Lbl_per_year">每年</string>
+<string name="Lbl_apply_now">立即应用</string>
+<string name="Lbl_show_applies">显示应用程序</string>
+<string name="Lbl_already_applied">已应用</string>
+<string name="Lbl_ratings">评级</string>
+<string name="Lbl_call_action_1">阅读更多</string>
+<string name="Lbl_call_action_2">立即购买</string>
+<string name="Lbl_call_action_3">立即查看</string>
+<string name="Lbl_call_action_4">立即访问</string>
+<string name="Lbl_call_action_5">立即预订</string>
+<string name="Lbl_call_action_6">了解更多</string>
+<string name="Lbl_call_action_7">立即播放</string>
+<string name="Lbl_call_action_8">马上下注</string>
+<string name="Lbl_call_action_9">捐赠</string>
+<string name="Lbl_call_action_10">在此应用</string>
+<string name="Lbl_call_action_11">在此引用</string>
+<string name="Lbl_call_action_12">立即订购</string>
+<string name="Lbl_call_action_13">订票</string>
+<string name="Lbl_call_action_14">立即注册</string>
+<string name="Lbl_call_action_15">找张卡片</string>
+<string name="Lbl_call_action_16">获取报价</string>
+<string name="Lbl_call_action_17">买票</string>
+<string name="Lbl_call_action_18">找到经销商</string>
+<string name="Lbl_call_action_19">在线订购</string>
+<string name="Lbl_call_action_20">现在预定</string>
+<string name="Lbl_call_action_21">立即安排</string>
+<string name="Lbl_call_action_22">立即注册</string>
+<string name="Lbl_call_action_23">订阅</string>
+<string name="Lbl_call_action_24">立即注册</string>
+<string name="Lbl_call_action_25">写在string.xml文件上</string>
+<string name="Lbl_call_action_26">写在string.xml文件上</string>
+<string name="Lbl_call_action_sorry">抱歉：页面所有者未指定操作Url</string>
+<string name="Lbl_go_pro_1">特色会员</string>
+<string name="Lbl_go_pro_2">查看个人资料访问者</string>
+<string name="Lbl_go_pro_3">页面升级</string>
+<string name="Lbl_go_pro_4">显示/隐藏上次看到的</string>
+<string name="Lbl_go_pro_5">验证的徽章</string>
+<string name="Lbl_go_pro_6">职务晋升</string>
+<string name="Lbl_upgrade_now">立即升级</string>
+<string name="Lbl_Go_Pro">职业选手</string>
+<string name="Lbl_TwoFactor">双因素身份验证</string>
+<string name="Lbl_Describe_TwoFactor">“启用两步登录以提高帐户的安全性，启用后，您将同时使用密码和发送到手机或电子邮件的6位安全代码登录。”</string>
+<string name="Lbl_ConfirmationEmail_TwoFactor">我们已经发送了一封电子邮件，其中包含用于启用双因素身份验证的确认代码。</string>
+<string name="Lbl_ConfirmationEmailSent">已发送确认电子邮件。</string>
+<string name="Lbl_ConfirmationCode">确认码</string>
+<string name="Lbl_ConfirmationCodeSent">发送确认码</string>
+<string name="Lbl_TwoFactorOn">双因素开启</string>
+<string name="Lbl_Enable">启用</string>
+<string name="Lbl_Disable">禁用</string>
+<string name="Lbl_Relationship">关系</string>
+<string name="Lbl_Single">单身</string>
+<string name="Lbl_InRelationship">在一段关系中</string>
+<string name="Lbl_Married">已婚的</string>
+<string name="Lbl_Engaged">已订婚的</string>
+<string name="Lbl_YouHaveAlReadyRatedThisPage">你已经给这一页评分了！</string>
+<string name="Lbl_WriteYourReview">写下你的评论。</string>
+<string name="Lbl_NoMoreReviews">找不到更多评论</string>
+<string name="Lbl_NoReviews">找不到评论</string>
+<string name="Lbl_Reviews">评论</string>
+<string name="Lbl_changeImage">更改图像</string>
+<string name="Lbl_upgrade">升级</string>
+<string name="Lbl_Funding">基金</string>
+<string name="Lbl_FundingRequests">资金请求</string>
+<string name="Lbl_NewFunding">新资金</string>
+<string name="Lbl_FundingSuccessfullyEdited">资金编辑成功</string>
+<string name="Lbl_NotHaveAnyFundingRequest">没有任何资金要求</string>
+<string name="Lbl_Please_enter_amount">错误，请输入金额</string>
+<string name="Lbl_NoMoreFunding">找不到更多资金</string>
+<string name="Lbl_Donate">捐赠</string>
+<string name="Lbl_RaisedOf">升起的</string>
+<string name="Lbl_Title">标题</string>
+<string name="Lbl_Amount">数量</string>
+<string name="Lbl_Donated">捐赠</string>
+<string name="Lbl_Please_enter_Currency">错误，请输入货币</string>
+<string name="Lbl_Please_select_Rating">错误，请选择评分</string>
+<string name="Lbl_Please_enter_review">错误，请输入评论</string>
+<string name="Lbl_AddMe">加我</string>
+<string name="Lbl_SendMessageTo">发送消息到</string>
+<string name="Lbl_WriteMessage">写一条消息</string>
+<string name="Lbl_BoostPage">增强页</string>
+<string name="Lbl_UnBoostPage">取消页面主体</string>
+<string name="Lbl_PageSuccessfullyBoosted">页面成功提升</string>
+<!--Payment Card Details-->
+<string name="Lbl_Expire">到期</string>
+<string name="Lbl_CVV">CVV公司</string>
+<string name="Lbl_YourName">你的名字</string>
+<string name="Lbl_CreditCardNumber">信用卡号码</string>
+<string name="Lbl_NameOfCard">名片上的名字</string>
+<string name="Lbl_OrUsing">或使用</string>
+<string name="Lbl_PleaseVerifyDataCard">请验证输入的数据是否正确</string>
+<string name="Lbl_ErrorConnectionSystemStripe">电子支付系统出错，请向维修部查询，谢谢</string>
+<string name="Lbl_Canceled">取消</string>
+<string name="Lbl_Invalid">无效的</string>
+<!--===============================================================-->
+<string name="Lbl_Night_Mode">夜间模式</string>
+<string name="Lbl_Default">违约</string>
+<string name="Lbl_ManageSessions">管理会话</string>
+<string name="Lbl_Empty_Sessions">没有会话！！</string>
+<string name="Lbl_Browser">浏览器</string>
+<string name="Lbl_IpAddress">IP地址</string>
+<string name="Lbl_AreYouSureLogoutFromThisDevice">是否确实要从此设备注销？</string>
+<string name="Lbl_DeletePage">删除页</string>
+<string name="Lbl_DeleteGroup">删除组</string>
+<string name="Lbl_ActionButtons">动作按钮</string>
+<string name="Lbl_AreYouSureToDelete">确定要删除吗？</string>
+<string name="Lbl_GroupSuccessfullyDeleted">已成功删除组</string>
+<string name="Lbl_PageSuccessfullyDeleted">已成功删除页</string>
+<string name="Lbl_Members">成员</string>
+<string name="Lbl_MakeAdmin">成为管理员</string>
+<string name="Lbl_RemoveAdmin">删除管理员</string>
+<string name="Lbl_RemoveMember">删除成员</string>
+<string name="Lbl_BlockMember">阻止成员</string>
+<string name="Lbl_ViewProfile">查看配置文件</string>
+<string name="Lbl_InviteMembers">邀请成员</string>
+<string name="Lbl_AddYourFriendsToGroup">将您的朋友添加到此群</string>
+<string name="Lbl_InviteFriendsToPage">邀请朋友喜欢此网页</string>
+<string name="Lbl_MessageSentSuccessfully">消息发送成功</string>
+<string name="Lbl_CreatedNewFund">创建捐赠请求</string>
+<string name="Lbl_DonatedRequestFund">捐赠给请求</string>
+<string name="Lbl_SuggestedGroups">建议的组</string>
+<string name="Lbl_SuggestedForYou">为您推荐</string>
+<string name="Lbl_Discover">发现</string>
+<string name="Lbl_SeeAll">全部查看</string>
+<string name="Lbl_Categories">类别</string>
+<string name="Lbl_FindGroupByCategories">通过浏览顶级类别查找组</string>
+<string name="Lbl_RandomGroups">随机群</string>
+<string name="Lbl_GetMoviesByCategories">按类别获取电影</string>
+<string name="Lbl_Empty_Gif">没有gif！！</string>
+<string name="Lbl_Please_select_privacy">错误，请选择隐私</string>
+<!-- V2.6.4 String translate -->
+<!--===============================================================-->
+<string name="Lbl_ContinueAs">继续作为</string>
+<string name="Lbl_Collected">收集</string>
+<string name="Lbl_Empty_Activities">没有活动！！</string>
+<!-- V2.7 String translate -->
+<!--===============================================================-->
+<string name="Lbl_Light">轻</string>
+<string name="Lbl_Dark">黑暗的</string>
+<string name="Lbl_SetByBattery">由节电器设置</string>
+<string name="Lbl_ErrorFileNotSupported">服务器不支持此文件，请选择其他文件</string>
+<string name="Lbl_EarnUpTo">赚得最多</string>
+<string name="Lbl_forEachUserYourReferToUs">对于每一位用户，请向我们介绍</string>
+<string name="Lbl_MyPoints">我的观点</string>
+<string name="Lbl_Earn">赚取</string>
+<string name="Lbl_ByCommentingAnyPost">通过评论任何帖子</string>
+<string name="Lbl_ByCreatingNewPost">通过创建新帖子</string>
+<string name="Lbl_ByCreatingNewBlog">通过创建新博客</string>
+<string name="Lbl_ByReactingAnyPost">在任何岗位上做出反应</string>
+<string name="Lbl_ByWonderingAnyPost">在任何一个岗位上</string>
+<string name="Lbl_ByDislikingAnyPost">不喜欢任何职位</string>
+<string name="Lbl_YourEarnedPoints">您的积分将自动进入“钱包”</string>
+<string name="Lbl_MyBalance">我的余额</string>
+<string name="Lbl_EmailOrUserName">电子邮件或用户名</string>
+<string name="Lbl_SendMoneyToFriends">给朋友寄钱</string>
+<string name="Lbl_YouCanSendMoney">你可以给你的朋友、熟人或任何人寄钱</string>
+<string name="Lbl_AddFunds">增加资金</string>
+<string name="Lbl_SendMoney">寄钱</string>
+<string name="Lbl_Home">家</string>
+<string name="Lbl_Continue">继续</string>
+<string name="Lbl_ReplenishMyBalance">补充我的平衡</string>
+<string name="Lbl_WalletCredits">钱包和信用卡</string>
+<string name="Lbl_CurrentBalance">经常项目差额</string>
+<string name="Lbl_Please_enter_name_email">错误，请输入姓名或电子邮件</string>
+<string name="Lbl_ThisPostContainsSensitive">这篇文章包含一些敏感的内容，有些人可能会觉得这些内容冒犯或令人不安</string>
+<string name="Lbl_SeePost">见帖子</string>
+<string name="Lbl_SelectUser">选择用户</string>
+<string name="Lbl_NoPost_TitleText_Group">没有可显示的帖子</string>
+<string name="Lbl_MyArticle">我的文章</string>
+<string name="Lbl_ContentAskOPenAppMessenger">我们正在将您转到另一个应用程序，是否继续？</string>
+<!--Follow Request-->
+<string name="Lbl_FollowRequest">遵循要求</string>
+<string name="Lbl_View_All_FollowRequest">查看所有后续请求</string>
+<string name="Lbl_AddPicturesToAlbum">是否要将图片添加到相册中？</string>
+<string name="Lbl_Earnings">收益</string>
+<string name="Lbl_ChooseRelationshipStatus">选择你的关系状态</string>
+<string name="Lbl_Theme">主题</string>
+<string name="Lbl_CreateAsAlbum">创建为相册</string>
+<string name="Lbl_Story_Added">添加的故事</string>
+<string name="Lbl_UploadingPost">上传帖子</string>
+<string name="Lbl_UploadingStory">上传故事</string>
+<!-- V2.8 String translate -->
+<!--===============================================================-->
+<string name="Lbl_Summary_OnlineUsers">当用户联机时显示</string>
+<string name="Lbl_Display">显示</string>
+<string name="Lbl_ShowOnlineUsers">显示联机用户</string>
+<string name="Lbl_MyInformation">我的信息</string>
+<string name="Lbl_DownloadMyInformation">下载我的信息</string>
+<string name="Lbl_MyInformation_SubText">请选择要下载的信息</string>
+<string name="Lbl_YourFileIsReady">您的文件已准备好下载</string>
+<string name="Lbl_YourFileIsDownloaded">您的文件已成功下载</string>
+<string name="Lbl_DownloadAndView">下载视图</string>
+<string name="Lbl_Admin">行政</string>
+<string name="Lbl_MyFriends">我的朋友们</string>
+<string name="Lbl_Anonymous">匿名的</string>
+<string name="Lbl_BankTransfer">银行转账</string>
+<string name="Lbl_YourWasReceiptSuccessfullyUploaded">您的Was收据已成功上载</string>
+<string name="Lbl_Note">注：</string>
+<string name="Lbl_long_Note">为了确认银行转账，您需要在付款日起1天内上传收据或截图。如果在此期间进行了银行转账但未上传收据，则您的订单将被取消。我们将在您上传后3个工作日内核实并确认您的收据。</string>
+<string name="Lbl_AccountNumber">账号/IBAN</string>
+<string name="Lbl_AccountName">帐户名</string>
+<string name="Lbl_RoutingCode">路由代码</string>
+<string name="Lbl_ErrorPleaseSelectImage">错误，请选择图像</string>
+<string name="Lbl_Country">国家</string>
+<string name="Btn_Paypal">贝宝</string>
+<string name="Btn_GooglePlay">谷歌游戏</string>
+<string name="Lbl_InvitationLinks">邀请链接</string>
+<string name="Lbl_AvailableLinks">可用链接</string>
+<string name="Lbl_GeneratedLinks">生成的链接</string>
+<string name="Lbl_UsedLinks">使用的链接</string>
+<string name="Lbl_GenerateLinks">生成链接</string>
+<string name="Lbl_Copy">复制</string>
+<string name="Lbl_InvitedUser">邀请用户</string>
+<string name="Lbl_Url">网址</string>
+<string name="Lbl_Activities">活动</string>
+<string name="Lbl_Offer">提供</string>
+<string name="Lbl_OfferPostAdded">创建了新报价</string>
+<string name="Lbl_Memories">回忆</string>
+<string name="Lbl_NoMoreMemories">找不到更多的记忆</string>
+<string name="Lbl_Empty_Memories">“哎呀！没有任何记忆”</string>
+<string name="Lbl_Friendversaries">友谊</string>
+<string name="Lbl_Offers">提供</string>
+<string name="Lbl_NoMoreOffers">没有可显示的优惠</string>
+<string name="Lbl_Empty_Offers">没有报价</string>
+<string name="Lbl_DiscountType">折扣类型</string>
+<string name="Lbl_DiscountItems">折扣项目和/或服务</string>
+<string name="Lbl_CreateOffers">创建报价</string>
+<string name="Lbl_EditOffers">编辑优惠</string>
+<string name="Lbl_DiscountPercent">折扣百分比</string>
+<string name="Lbl_DiscountAmount">贴现金额</string>
+<string name="Lbl_BuyGetDiscount">买X买Y折扣</string>
+<string name="Lbl_SpendGetOff">花点钱让你下车</string>
+<string name="Lbl_FreeShipping">免费送货</string>
+<string name="Lbl_Buy">购买</string>
+<string name="Lbl_Get">得到</string>
+<string name="Lbl_Spend">花费</string>
+<string name="Lbl_AmountOff">扣减金额</string>
+<string name="Lbl_Time">时间</string>
+<string name="Lbl_Discount">优惠</string>
+<string name="Lbl_OfferSuccessfullyEdited">已成功编辑报价</string>
+<string name="Lbl_OfferSuccessfullyAdded">已成功添加报价</string>
+<string name="Lbl_DeleteOffers">是否确实要删除此文章</string>
+<string name="Lbl_SearchForPosts">搜索帖子</string>
+<string name="Lbl_NoMemoriesDescriptions">谢谢你过来。今天没有什么值得回忆的，但当我们有事情要回顾的时候，我们会让你知道的。</string>
+<string name="Lbl_NoCommentThingsDescriptions">谢谢你过来。用户没有任何常见的东西可以显示给您。</string>
+<string name="Lbl_NoJobsDescriptions">对不起，目前没有职位空缺。</string>
+<string name="Lbl_NoNotifcationsDescriptions">敬请期待！有关您的活动的通知将显示在此处。</string>
+<string name="Lbl_Event">事件</string>
+<string name="Lbl_CreatedNewEvent">创建了新事件</string>
+<string name="Lbl_Invited">邀请</string>
+<string name="Lbl_Past">过去的</string>
+<string name="Lbl_CreditCard">信用卡</string>
+<string name="Btn_Continue">继续</string>
+<string name="Lbl_NearbyShops">附近的商店</string>
+<string name="Lbl_Empty_Shop">找不到商店</string>
+<string name="Lbl_NearbyBusiness">附近的生意</string>
+<string name="Lbl_Empty_Business">找不到生意</string>
+<!--Withdrawals-->
+<string name="Lbl_Withdrawals">提款</string>
+<string name="Lbl_PayPalEmail">贝宝电子邮件</string>
+<string name="Lbl_CantRequestWithdrawals">您不能要求与您当前余额不相称的金额</string>
+<string name="Lbl_RequestSentWithdrawals">您的提款请求已成功发送</string>
+<string name="Lbl_Withdrawals_SubText1">你的余额是</string>
+<string name="Lbl_Withdrawals_SubText2">最低提款要求是</string>
+<string name="Lbl_WithdrawMethod">提取方法</string>
+<string name="Lbl_SwiftCode">银行代码</string>
+<string name="Lbl_Address">地址</string>
+<string name="Lbl_RequestWithdrawal">请求撤回</string>
+<string name="Lbl_Bank">银行</string>
+<string name="Lbl_AddedNewPhoto">添加了新照片</string>
+<string name="Lbl_Publish">发布</string>
+<string name="Lbl_CommentsAreDisabledBy">注释被禁用</string>
+<string name="Lbl_EnableComments">启用注释</string>
+<string name="Lbl_DisableComments">禁用注释</string>
+<string name="Lbl_PostCommentsDisabled">发布评论禁用</string>
+<string name="Lbl_PostCommentsEnabled">已启用发布评论</string>
+<string name="Lbl_UsersCanPostOnMyPage">用户可以在我的页面上发布</string>
+<string name="Lbl_WasLive">是活的</string>
+<string name="Lbl_UnSavePost">未保存帖子</string>
+<string name="Lbl_SorryUserIsAnonymous">抱歉，此用户是匿名的</string>
+</resources>
