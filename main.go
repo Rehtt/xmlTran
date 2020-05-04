@@ -8,11 +8,13 @@ import (
 	"os"
 	"regexp"
 	"strconv"
+	"github.com/beevik/etree"
 )
 
 func main() {
 	//xml2xlsx()
-	xlsx2xml()
+	//xlsx2xml()
+	xml2()
 }
 
 func xlsx2xml() {
@@ -66,7 +68,6 @@ func xml2xlsx() {
 	for res.Scan() {
 		namev := name.FindStringSubmatch(res.Text())
 		valuev := value.FindStringSubmatch(res.Text())
-
 		if len(namev) != 0 && len(valuev) != 0 {
 			i++
 			f.SetCellValue("Sheet1", "A"+strconv.Itoa(i), namev[1])
@@ -85,5 +86,14 @@ func xml2xlsx() {
 	if err := f.SaveAs("strings.xlsx"); err != nil || err == io.EOF {
 		fmt.Println("保存文件失败，请检查是否有写入权限")
 		return
+	}
+}
+
+func xml2() {
+	doc:=etree.NewDocument()
+	doc.ReadFromFile("strings.xml")
+	res:=doc.SelectElement("resources")
+	for _,v:=range res.ChildElements(){
+		fmt.Println(v.FullTag())
 	}
 }
